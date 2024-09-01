@@ -27,7 +27,6 @@ BuildRequires:  pkgconfig(zlib)
 A Wayland VNC client.
 
 %prep
-cd %{_builddir}/%{name}
 
 %build
 %meson
