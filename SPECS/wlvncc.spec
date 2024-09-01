@@ -35,6 +35,7 @@ A Wayland VNC client.
 
 %install
 %meson_install
+tree %{buildroot}
 
 %files
 %license LICENSE
