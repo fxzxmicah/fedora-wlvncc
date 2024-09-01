@@ -15,14 +15,13 @@ jobs:
       uses: actions/checkout@v4
       with:
         repository: any1/wlvncc
-        path: BUILD/wlvncc
-
+        path: BUILD
         
-    - name: Checkout wlvncc Code
+    - name: Checkout aml Code
       uses: actions/checkout@v4
       with:
         repository: any1/aml
-        path: BUILD/wlvncc/subprojects/aml
+        path: BUILD/subprojects/aml
 
     - name: Setup Docker
       uses: docker/setup-buildx-action@v3
