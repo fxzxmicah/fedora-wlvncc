@@ -28,6 +28,7 @@ BuildRequires:  pkgconfig(zlib)
 A Wayland VNC client.
 
 %prep
+# No preparation needed
 
 %build
 %meson
@@ -42,5 +43,5 @@ A Wayland VNC client.
 %{_bindir}/wlvncc
 
 %changelog
-* Sun Sep 01 2024 Your Name <your.email@example.com> - 0.1.0-1
+* Sun Sep 01 2024 Fxzxmicah <48860358+fxzxmicah@users.noreply.github.com> - 0.1.0-1
 - Initial package
