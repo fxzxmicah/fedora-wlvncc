@@ -35,13 +35,11 @@ A Wayland VNC client.
 
 %install
 %meson_install
-tree %{buildroot}
 
 %files
-%license LICENSE
+%license COPYING
 %doc README.md
 %{_bindir}/wlvncc
-%{_datadir}/wlvncc
 
 %changelog
 * Sun Sep 01 2024 Your Name <your.email@example.com> - 0.1.0-1
