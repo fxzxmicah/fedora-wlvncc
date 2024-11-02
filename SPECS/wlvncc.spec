@@ -28,6 +28,7 @@ BuildRequires:  pkgconfig(zlib)
 A Wayland VNC client.
 
 %prep
+rm -r %{_builddir}
 ln -sf %{_builddir}/.. %{_builddir}
 
 %build
