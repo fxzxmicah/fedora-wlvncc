@@ -31,10 +31,14 @@ A Wayland VNC client.
 # No preparation needed
 
 %build
+cd %{_builddir}
+
 %meson
 %meson_build
 
 %install
+cd %{_builddir}
+
 %meson_install
 
 %files
