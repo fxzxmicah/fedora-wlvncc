@@ -29,6 +29,7 @@ A Wayland VNC client.
 
 %prep
 cd %{_builddir}/..
+rm -r %{_builddir}
 ln -srf . %{_builddir}
 
 %build
